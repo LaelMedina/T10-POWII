@@ -1,15 +1,14 @@
 import React from "react";
-import "../Book.css"; // Importa estilos adicionales si es necesario
+import "../Anime.css";
 
-function Book(props) {
+function Anime(props) {
   const cardStyle = {
     width: "18rem",
-    margin: "auto",
   };
 
   const imageStyle = {
-    width: "100%", // Ajusta el ancho de la imagen al 100% de la tarjeta
-    height: "360px", // Fija la altura de la imagen
+    width: "100%",
+    height: "400px",
   };
 
   return (
@@ -26,13 +25,13 @@ function Book(props) {
         <p className="card-text">{props.value.year}</p>
         <div>
           <button className="btn btn-primary" style={{ marginRight: "10px" }}>
-            Ver
+            See
           </button>
           <button
             onClick={() => props.fnAddFavorites(props.value)}
             className="btn btn-warning"
           >
-            Favorito
+            Favorite
           </button>
         </div>
       </div>
@@ -40,4 +39,4 @@ function Book(props) {
   );
 }
 
-export default Book;
+export default Anime;

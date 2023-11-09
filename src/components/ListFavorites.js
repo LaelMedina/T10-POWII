@@ -6,7 +6,7 @@ function ListFavorites(props) {
       <Favorite
         key={element.id}
         value={element}
-        fnRemoveBookFromFavorites={props.fnRemoveBookFromFavorites}
+        fnRemoveAnimeFromFavorites={props.fnRemoveAnimeFromFavorites}
       />
     );
   });
@@ -17,7 +17,7 @@ function ListFavorites(props) {
         borderTop: "1px solid rgb(210, 210, 210)",
       }}
     >
-      <h4 style={{ margin: "20px 0 20px 0" }}>Modificado</h4>
+      <h4 style={{ margin: "20px 0 20px 0" }}>Modified</h4>
       {listFavoritesRendered}
     </div>
   );

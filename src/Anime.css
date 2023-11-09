@@ -9,15 +9,14 @@
 .card-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-  gap: 20px; /* Espaciado entre tarjetas */
+  gap: 20px;
 }
 
-/* Estilo adicional para la tarjeta si es necesario */
 .card {
-  width: 100%; /* Asegura que la tarjeta ocupe todo el espacio disponible */
+  width: 100%;
 }
 
-/* Alinea la imagen en el centro */
+
 .card-img-top {
   display: block;
   margin-left: auto;
