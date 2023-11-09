@@ -53,7 +53,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <CreateBook fnNewBook={NewAnime} />
+            <CreateBook fnNewAnime={NewAnime} />
             <ListFavorites
               elements={ListFavoriteAnimes}
               fnRemoveAnimeFromFavorites={removeAnimeFromFavorites}
